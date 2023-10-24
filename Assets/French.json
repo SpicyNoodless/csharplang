@@ -1,0 +1,7 @@
+[
+    {
+        "text": "Relis-le encore.",
+        "domain": "email",
+        "intent": "repeat"
+    }
+]

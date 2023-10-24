@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleBasedLU", "RuleBasedLU\RuleBasedLU.csproj", "{9361F33E-8316-4A2E-A3FB-A6F85F885593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleBasedLUTest", "RuleBasedLUTest\RuleBasedLUTest.csproj", "{C9823281-FE2F-4418-9821-9B858D36FFDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B290270-0DB8-4C03-92B2-91C7A60D1AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B290270-0DB8-4C03-92B2-91C7A60D1AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B290270-0DB8-4C03-92B2-91C7A60D1AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B290270-0DB8-4C03-92B2-91C7A60D1AEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9361F33E-8316-4A2E-A3FB-A6F85F885593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9361F33E-8316-4A2E-A3FB-A6F85F885593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9361F33E-8316-4A2E-A3FB-A6F85F885593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9361F33E-8316-4A2E-A3FB-A6F85F885593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9823281-FE2F-4418-9821-9B858D36FFDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9823281-FE2F-4418-9821-9B858D36FFDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9823281-FE2F-4418-9821-9B858D36FFDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9823281-FE2F-4418-9821-9B858D36FFDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

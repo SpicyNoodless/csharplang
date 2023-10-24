@@ -1,0 +1,2487 @@
+[
+    {
+      "text": "reread",
+      "domain": "email",
+      "intent": "repeat"
+    },
+    {
+      "text": "read it again",
+      "domain": "email",
+      "intent": "repeat"
+    },
+    {
+      "text": "reply to the sender",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "reply to him",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "reply to her",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "i want to dictate my message again",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "i want to replace the message",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "play my emails from yash kamalanath",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "play my emails about covid update",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read me the covid update emails",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read the covid update emails",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "go to the next account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to the first account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to the last account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to the previous account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my Hotmail account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my Yahoo account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my AOL account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my Outlook account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my Gmail.com account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "go to my Hotmail.com account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "play emails from my next email account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "play emails from my other account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "play emails from my Gmail account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "play emails from my Hotmail account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "move to design review folder",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "move to folder design review",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "search email from design review folder",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "search email from folder design review",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read from design review folder",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read from folder design review",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "what emails about winter do I have from yesterday",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "Read the first email",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "mark the email as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "change the message to design review",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change message to cortana",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change the subject to design review",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change subject to cortana",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change subject to test",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change the title to design review",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change title to cortana",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change the recipient to john snow",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change the recipient to yum@gmail.com",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "what emails about cricket do I have from yesterday?",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "do I have any emails?",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "reply to this message saying testing.",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "move it to design review folder",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "put it in design review folder",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "move to tee",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "Send an email to myself about Friday party saying Make arrangements",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "switch to next account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "switch to previous account",
+      "domain": "email",
+      "intent": "switch_account"
+    },
+    {
+      "text": "change who it is going to",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change who the email is going to",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "change the title",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "update the title",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "send an email to John using title Moriarty is back",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "send an email using title Moriarty is back",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "read emails on aka",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read emails on ngo",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "read emails on nafta",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "Are there any emails from my manager?",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "What new emails did I get in the last hour?",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "What are my new emails?",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "Send an email to my manager",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "Email my manager",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "Send myself an EMAIL",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "Email me",
+      "domain": "email",
+      "intent": "send_email"
+    },
+    {
+      "text": "Goodbye",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "Bye",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "Close",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "finished",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "we're done",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "I'm finished",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "I'm done",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "I'm done for now",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "That's all",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "That'll be all",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "Power off",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "Shut down",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "Turn off",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "See you later",
+      "domain": "email",
+      "intent": "exit"
+    },
+    {
+      "text": "erase",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "erase it",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "erase that",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "discard",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "discard it",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "discard that",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "replay",
+      "domain": "email",
+      "intent": "repeat"
+    },
+    {
+      "text": "forward",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "nothing",
+      "domain": "email",
+      "intent": "select_none"
+    },
+    {
+      "text": "move to inbox",
+      "domain": "email",
+      "intent": "move_email"
+    },
+    {
+      "text": "fast forward",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip this part",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip that part",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip this section",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip that section",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip this table",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip that table",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip this paragraph",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "skip that paragraph",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "next part",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "next section",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "next paragraph",
+      "domain": "email",
+      "intent": "fast_forward"
+    },
+    {
+      "text": "edit email",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "play",
+      "domain": "email",
+      "intent": "resume"
+    },
+    {
+      "text": "play again",
+      "domain": "email",
+      "intent": "resume"
+    },
+    {
+      "text": "edit in outlook",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "edit in outlook mobile",
+      "domain": "email",
+      "intent": "change_email"
+    },
+    {
+      "text": "forward the email to yue saying this is home",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "forward the email to mary johnson with message test",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "Do I have new emails",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "next one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "previous one",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "archive",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "delete",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "flag",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "unflag email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "mark unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark it read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark this read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark this as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark the email as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark the email read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark it read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark this one as read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Will you mark this one as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Will you mark this one as read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark this one as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark this one as read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark it read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark it read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark it read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark it read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark it read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark this read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark this as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark the email as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark the email read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark it read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark this one as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark it read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark this read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark this as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark the email as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark the email read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark it read please",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark this one as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Can you mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you please mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you please mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you please mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you please mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Could you please mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "I want to mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark mark the conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark mark the conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark mark this conversation read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Just mark mark this conversation as read",
+      "domain": "email",
+      "intent": "mark_read"
+    },
+    {
+      "text": "Mark unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you please mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you please mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you please mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you please mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you please mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark mark the conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark mark the conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark mark this conversation unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark mark this conversation as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark it unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark this unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark this as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark the email as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark the email unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Mark it unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark this one as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark this one as unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Will you mark this one as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Will you mark this one as unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark this one as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark this one as unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark it unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Can you mark it unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark it unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Could you mark it unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark it unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark this unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark this as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark the email as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark the email unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark it unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "I want to mark this one as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark it unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark this unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark this as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark the email as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark the email unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark it unread please",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Just mark this one as unread",
+      "domain": "email",
+      "intent": "mark_unread"
+    },
+    {
+      "text": "Flag",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag it",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag it please",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag the email",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag this email",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Can you flag it please",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Will you flag this email please",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Will you flag the email",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Could you please flag the email",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Could you flag the email please",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Just flag it",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I want to flag it",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I want to flag this email",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I want to flag this one",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I am gonna flag this one",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I am going to flag this one",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I think I am gonna flag this one",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I think I am going to flag this one",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag this conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag the conversation please",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag the whole conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Could you flag this conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Could you please flag this conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Will you flag this conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Will you please flag the conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Just flag the whole conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Just flag the conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I want to flag the conversation for later",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "I want to flag the conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag the conversation for later",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Flag the whole conversation for later",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Unflag",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag it",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag it please",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag the email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag this email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Can you Unflag it please",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Will you Unflag this email please",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Will you Unflag the email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Could you please Unflag the email",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Could you Unflag the email please",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Just Unflag it",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I want to Unflag it",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I want to Unflag this one",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I am gonna Unflag this one",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I am going to Unflag this one",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I think I am gonna Unflag this one",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I think I am going to Unflag this one",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag this conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag the conversation please",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag the whole conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Could you Unflag this conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Could you please Unflag this conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Will you Unflag this conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Will you please Unflag the conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Just Unflag the whole conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Just Unflag the conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I want to Unflag the conversation for later",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "I want to Unflag the conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag the conversation for later",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Unflag the whole conversation for later",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Archive",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive it",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive it please",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the email",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive this email",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Can you Archive it please",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Will you Archive this email please",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Will you Archive the email",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Could you please Archive the email",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Could you Archive the email please",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Just Archive it",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I want to Archive it",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I want to Archive this email",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I want to Archive this one",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I am gonna Archive this one",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I am going to Archive this one",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I think I am gonna Archive this one",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I think I am going to Archive this one",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Delete",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete it",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete it please",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete the email",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete this email",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Can you Delete it please",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Will you Delete this email please",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Will you Delete the email",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Could you please Delete the email",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Could you Delete the email please",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Just Delete it",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I want to Delete it",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I want to Delete this email",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I want to Delete this one",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I am gonna Delete this one",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I am going to Delete this one",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I think I am gonna Delete this one",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I think I am going to Delete this one",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Archive conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive this conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the conversation please",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the whole conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Could you Archive this conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Could you please Archive this conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Will you Archive this conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Will you please Archive the conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Just Archive the whole conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Just Archive the conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I want to Archive the conversation for later",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I want to Archive the conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the conversation for later",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the whole conversation for later",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "I am gonna Archive the conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Delete conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete this conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete  the conversation please",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete  the whole conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Could you Delete this conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Could you please Delete this conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Will you Delete this conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Will you please Delete the conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Just Delete the whole conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Just Delete the conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I want to Delete the conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete the whole discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Delete the discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Can you please Delete the whole discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Could you please Delete this discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I am gonna Delete the conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I think I am gonna Delete the discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "I think I am going to Delete the whole discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Next",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Go to the next one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Go to the next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to hear the next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Read me the next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next in line",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next one in line",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next one in line please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "What's the next email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next conversation please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Go to the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to hear the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Read me the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next conversation in line",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Next conversation in line please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "What's the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Previous",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous please",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous email",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous one please",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Go to the Previous one",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Go to the Previous email",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "I want to hear the Previous email again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Read me the Previous email again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Go back to the previous email",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous one",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "What's the previous email again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Previous conversation please",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Go to the Previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "I want to hear the Previous conversation again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Could you read me the previous conversation again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Go back to the Previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Could you please go back to the previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Rewind to the previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "What's the Previous conversation",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "What's the previous conversation again",
+      "domain": "email",
+      "intent": "show_previous"
+    },
+    {
+      "text": "Skip",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip this one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip the email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip this email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to skip",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to skip this email",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the next one",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the next one in line",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip the conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip conversation please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the Next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip to the next conversation please",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to skip to the next conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "I want to skip the conversation",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip this whole discussion",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Skip the whole discussion",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Could you please skip the whole discussion",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Reply to this",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Reply to this email",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Reply to that email",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Send a reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Reply to this email please",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Could you please reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Could you send a quick reply please",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Quick reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Reply real quick",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "I would like to send a reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "I want to reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "I want to reply quickly",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "I want to send a quick reply",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "I want to reply briefly",
+      "domain": "email",
+      "intent": "reply"
+    },
+    {
+      "text": "Play next",
+      "domain": "email",
+      "intent": "show_next"
+    },
+    {
+      "text": "Archive the conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Flag the conversation",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Unflag the conversation",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Delete the conversation",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Forward the conversation",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "Archive the thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Flag the thread",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Unflag the thread",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Delete the thread",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Forward the thread",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "Archive the discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Flag the discussion",
+      "domain": "email",
+      "intent": "flag"
+    },
+    {
+      "text": "Unflag the discussion",
+      "domain": "email",
+      "intent": "clear_flag"
+    },
+    {
+      "text": "Delete the discussion",
+      "domain": "email",
+      "intent": "delete"
+    },
+    {
+      "text": "Forward the discussion",
+      "domain": "email",
+      "intent": "forward"
+    },
+    {
+      "text": "Archive thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive whole conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive whole thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive whole discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the whole thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the whole discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive entire conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the entire conversation",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive entire thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the entire thread",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive entire discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "Archive the entire discussion",
+      "domain": "email",
+      "intent": "archive"
+    },
+    {
+      "text": "yes",
+      "domain": "email",
+      "intent": "confirm"
+    },
+    {
+      "text": "send it",
+      "domain": "email",
+      "intent": "confirm"
+    },
+    {
+      "text": "no",
+      "domain": "email",
+      "intent": "reject"
+    },
+    {
+      "text": "cancel",
+      "domain": "email",
+      "intent": "reject"
+    },
+    {
+      "text": "repeat",
+      "domain": "email",
+      "intent": "repeat"
+    },
+    {
+      "text": "resume",
+      "domain": "email",
+      "intent": "resume"
+    },
+    {
+      "text": "help",
+      "domain": "common",
+      "intent": "help"
+    },
+    {
+      "text": "accept",
+      "domain": "calendar",
+      "intent": "accept_meeting"
+    },
+    {
+      "text": "accept meeting",
+      "domain": "calendar",
+      "intent": "accept_meeting"
+    },
+    {
+      "text": "send feedback",
+      "domain": "feedback",
+      "intent": "submit_feedback"
+    },
+    {
+      "text": "contact support",
+      "domain": "feedback",
+      "intent": "contact_support"
+    },
+    {
+      "text": "schedule a meeting",
+      "domain": "calendar",
+      "intent": "create_calendar_entry"
+    },
+    {
+      "text": "check my email",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "check my emails",
+      "domain": "email",
+      "intent": "search_email"
+    },
+    {
+      "text": "send a feedback",
+      "domain": "feedback",
+      "intent": "submit_feedback"
+    },
+    {
+      "text": "I have a feedback",
+      "domain": "feedback",
+      "intent": "submit_feedback"
+    },
+    {
+      "text": "feedback",
+      "domain": "feedback",
+      "intent": "submit_feedback"
+    }
+  ]
