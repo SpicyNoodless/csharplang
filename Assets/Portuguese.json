@@ -1,7 +1,2487 @@
 [
-    {
-        "text": "",
-        "domain": "",
-        "intent": ""
-    }
+  {
+    "text": "reler",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "Leia novamente",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "responder ao remetente",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "responda-lhe",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "responder a ela",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Quero ditar minha mensagem novamente",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Quero substituir a mensagem",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "jogar meus e-mails de yash kamalanath",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Reproduzir meus e-mails sobre a atualização COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia-me os e-mails de atualização da COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia os e-mails de atualização do COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Ir para a próxima conta",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Ir para a primeira conta",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "ir para a última conta",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Ir para a conta anterior",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "ir para a minha conta do Hotmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "ir para a minha conta do Yahoo",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "ir para a minha conta AOL",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "ir para a minha conta do Outlook",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Acesse Minha conta Gmail.com",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Acesse Minha conta Hotmail.com",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Reproduzir e-mails da minha próxima conta de e-mail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Reproduzir e-mails da minha outra conta",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "reproduzir e-mails da minha conta do Gmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "reproduzir e-mails da minha conta do Hotmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "mover para a pasta de revisão de design",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "mover para revisão de design de pasta",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Pesquisar e-mail da pasta Design Review",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Pesquisar e-mail a partir da Revisão de Design de Pasta",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia da pasta Design Review",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia a partir da revisão de design de pasta",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "que e-mails sobre o inverno eu tenho de ontem",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia o primeiro e-mail",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "marcar o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Alterar a mensagem para Revisão de design",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alterar mensagem para Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "alterar o assunto para revisão de design",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alteração sujeita à Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "alteração sujeita a teste",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alterar o título para Revisão de design",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alterar o título para Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alterar o destinatário para John Snow",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "alterar o destinatário para yum@gmail.com",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "que e-mails sobre críquete eu tenho de ontem?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "tenho algum e-mail?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "responda a esta mensagem dizendo teste.",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Movê-lo para a pasta Design Review",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "colocá-lo na pasta de revisão de design",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "mover para tee",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Envie um e-mail para mim sobre a festa de sexta-feira dizendo Faça arranjos",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Mudar para a próxima conta",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "mudar para a conta anterior",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "mudar para quem vai",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "alterar para quem o e-mail vai",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Alterar o título",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "atualizar o título",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "enviar um e-mail para John usando o título Moriarty está de volta",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "enviar um e-mail usando o título Moriarty está de volta",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "ler e-mails em aka",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Leia e-mails sobre ONG",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Ler e-mails no NAFTA",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Há algum e-mail do meu gerente?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Que novos e-mails recebi na última hora?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Quais são os meus novos e-mails?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Enviar um e-mail para o meu gerente",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Enviar e-mail ao meu gerente",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Envie-me um EMAIL",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Envie-me um e-",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Até logo",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Tchau",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Fechar",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "terminado",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Terminamos",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Terminei",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Terminei",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Terminei por enquanto",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Só isso",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Isso será tudo",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Desligar",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Desligar",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Desativar",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Até logo",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "apagar",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "apagá-lo",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "apagar isso",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "descartar",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "descartá-lo",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "descartar isso",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "rejogar",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "encaminhar",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "nada",
+    "domain": "email",
+    "intent": "select_none"
+  },
+  {
+    "text": "mover para a caixa de entrada",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Avançar",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular esta parte",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular essa parte",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular esta seção",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular essa seção",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular esta tabela",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular essa tabela",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular este parágrafo",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "pular esse parágrafo",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "próxima parte",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "próxima seção",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Próximo parágrafo",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "editar e-mail",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "brincar",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "jogar novamente",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "Editar no Outlook",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Editar no Outlook Mobile",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Encaminhe o e-mail para Yue dizendo que esta é a casa",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Encaminhar o e-mail para Mary Johnson com teste de mensagem",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Tenho novos e-mails",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "próxima",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "arquivo",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "excluir",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "bandeira",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Desmarcar e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Resposta",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Marcar como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar leitura",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque esta leitura",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar este como lido por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você vai marcar este como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você vai marcar este como lido por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar este como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar este como lido, por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcá-lo ler",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcá-lo ler por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcá-lo ler",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcá-lo ler por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcá-lo lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar esta leitura",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar isso como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcá-lo lido por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar este como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcá-lo como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar esta leitura",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar isso como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar o e-mail como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar o e-mail lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcá-lo por favor",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar este como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marque esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você pode marcar esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar esta conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia marcar esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia por favor marcar esta conversa ler",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Você poderia por favor marcar esta conversa como lido",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar a leitura da conversa",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar esta conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Quero marcar esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar a conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar a conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar esta conversa lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Basta marcar esta conversa como lida",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marcar como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marque esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar esta conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar a conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar a conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar a conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar esta conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar esta conversa como não lida?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia por favor marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia por favor marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia por favor marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar essa conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar a conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar esta conversa como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marque-o como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marque esta frase como não lida",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marque isso como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marque-o como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar este como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcar este como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você vai marcar este como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você vai marcar este como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar este como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcar este como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcá-lo como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você pode marcá-lo não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcá-lo como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Você poderia marcá-lo não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcá-lo como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar isso como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar isso como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcá-lo como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Quero marcar este como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcá-lo como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar este não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar isso como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar o e-mail como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcá-lo como não lido, por favor",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Basta marcar este como não lido",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Bandeira",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizá-lo",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalize-o por favor",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar o e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar este e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você pode sinalizá-lo por favor",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você vai sinalizar este e-mail por favor",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você vai sinalizar o e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você poderia por favor sinalizar o e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você poderia sinalizar o e-mail por favor",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Basta sinalizá-lo",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Quero sinalizá-lo",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Quero sinalizar este e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Quero sinalizar este",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Vou sinalizar este",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Vou sinalizar este",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Acho que vou sinalizar esse",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Acho que vou sinalizar esse",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar esta conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalize a conversa por favor",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar toda a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você poderia sinalizar esta conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você poderia por favor sinalizar esta conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Você vai sinalizar esta conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Por favor, sinalize a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Basta sinalizar toda a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Basta sinalizar a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Quero sinalizar a conversa para mais tarde",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Quero sinalizar a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar a conversa para mais tarde",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Sinalizar toda a conversa para mais tarde",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Desmarcar",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque-o",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque-o, por favor",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque o e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque este e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarcar e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você pode desmarcá-lo por favor",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você vai desmarcar este e-mail por favor",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você vai desmarcar o e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você poderia por favor Desmarcar o e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você poderia desmarcar o e-mail por favor",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Basta desmarcá-lo",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Quero desmarcá-lo",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Eu quero desmarcar este",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Vou desmarcar este",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Vou desmarcar este",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Acho que vou desmarcar este",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Acho que vou desmarcar este",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque esta conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque a conversa, por favor",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque toda a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você poderia desmarcar esta conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você poderia por favor Desmarcar esta conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Você vai desmarcar esta conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Por favor, desmarque a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Basta desmarcar toda a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Basta desmarcar a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Quero desmarcar a conversa para mais tarde",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Quero desmarcar a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque a conversa para mais tarde",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Desmarque toda a conversa para mais tarde",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Arquivo",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquive-o",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquive-o por favor",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar o e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar este e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você pode arquivá-lo por favor",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você vai arquivar este e-mail por favor",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você vai arquivar o e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você poderia por favor arquivar o e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você poderia arquivar o e-mail por favor",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Basta arquivá-lo",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Quero arquivá-lo",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Quero arquivar este e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Quero arquivar este",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Vou arquivar este",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Vou arquivar este",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Acho que vou arquivar este",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Acho que vou arquivar este",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Excluir",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluí-lo",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Apague-o, por favor",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir o e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir este e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você pode excluí-lo por favor",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você vai excluir este e-mail por favor",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você vai excluir o e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você poderia por favor Excluir o e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você poderia excluir o e-mail por favor",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Basta excluí-lo",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Quero excluí-lo",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Quero excluir este e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Quero excluir este",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Eu vou excluir este",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Eu vou excluir este",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Eu acho que eu vou apagar este",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Eu acho que eu vou apagar este",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Arquivar conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar esta conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquive a conversa por favor",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você poderia arquivar esta conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você poderia por favor Arquive esta conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Você vai arquivar esta conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Por favor, arquive a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Basta arquivar toda a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Basta arquivar a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Quero arquivar a conversa para mais tarde",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Quero arquivar a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar a conversa para mais tarde",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquive toda a conversa para mais tarde",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Vou arquivar a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Excluir conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir esta conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Exclua a conversa por favor",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir toda a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você poderia excluir esta conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você poderia por favor Excluir esta conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você vai excluir esta conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Por favor, exclua a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Basta excluir toda a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Basta excluir a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Quero excluir a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir toda a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Excluir a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Você pode por favor Excluir toda a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Poderia, por favor, apagar esta discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Vou Excluir a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Acho que vou apagar a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Acho que vou apagar toda a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Próximo",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Em seguida, por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ir para a próxima",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ir para o próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero ouvir o próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Leia-me o próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular para o próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próxima",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próximo na fila",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próximo na fila",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próximo na fila, por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Qual é o próximo e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próxima conversa por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ir para a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero ouvir a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Leia-me a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular para a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próxima conversa na fila",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Próxima conversa na fila por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Qual é a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Anterior por favor",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "E-mail anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Anterior por favor",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Ir para o anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Ir para o e-mail anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Quero ouvir o e-mail anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Leia-me o e-mail anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Voltar para o e-mail anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Qual é o e-mail anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Conversa anterior, por favor",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Ir para a conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Quero ouvir a conversa anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Você poderia me ler a conversa anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Voltar para a conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Poderia, por favor, voltar à conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Retroceder para a conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Qual é a conversa anterior",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Qual é a conversa anterior novamente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Saltitar",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pule este",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorar o e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorar este e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero pular",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero pular este e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular um",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular para a próxima",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular para a próxima na fila",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular a conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pule a conversa, por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pular para a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pule para a próxima conversa, por favor",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero pular para a próxima conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quero pular a conversa",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pule toda essa discussão",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pule toda a discussão",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Poderia, por favor, pular toda a discussão",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Resposta",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Responda a isto",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Responder a este e-mail",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Responder a esse e-mail",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Enviar uma resposta",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Responda a este e-mail por favor",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Poderia responder:",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Você poderia enviar uma resposta rápida, por favor",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Resposta rápida",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Responda muito rápido",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Gostaria de enviar uma resposta",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Quero responder",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Quero responder rapidamente",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Quero enviar uma resposta rápida",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Quero responder brevemente",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Jogue em seguida",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Arquivar a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Sinalizar a conversa",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Desmarcar a conversa",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Excluir a conversa",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Encaminhar a conversa",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Arquivar o thread",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Sinalizar o thread",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Desmarque o thread",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Excluir o thread",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Encaminhar o thread",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Arquivar a discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Sinalizar a discussão",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Desmarque a discussão",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Excluir a discussão",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Encaminhar a discussão",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Thread de arquivamento",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar thread inteiro",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar todo o tópico",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a conversa",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar thread inteiro",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar todo o thread",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Arquivar toda a discussão",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Sim",
+    "domain": "email",
+    "intent": "confirm"
+  },
+  {
+    "text": "envie-o",
+    "domain": "email",
+    "intent": "confirm"
+  },
+  {
+    "text": "Não",
+    "domain": "email",
+    "intent": "reject"
+  },
+  {
+    "text": "Cancelar",
+    "domain": "email",
+    "intent": "reject"
+  },
+  {
+    "text": "repetir",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "retomar",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "Ajuda",
+    "domain": "common",
+    "intent": "help"
+  },
+  {
+    "text": "aceitar",
+    "domain": "calendar",
+    "intent": "accept_meeting"
+  },
+  {
+    "text": "aceitar reunião",
+    "domain": "calendar",
+    "intent": "accept_meeting"
+  },
+  {
+    "text": "enviar feedback",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "Entre em contato com o suporte",
+    "domain": "feedback",
+    "intent": "contact_support"
+  },
+  {
+    "text": "agendar uma reunião",
+    "domain": "calendar",
+    "intent": "create_calendar_entry"
+  },
+  {
+    "text": "verificar meu e-mail",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "verificar meus e-mails",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "enviar um feedback",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "Tenho um feedback",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "realimentação",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  }
 ]

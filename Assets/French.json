@@ -1,7 +1,2487 @@
 [
-    {
-        "text": "Relis-le encore.",
-        "domain": "email",
-        "intent": "repeat"
-    }
+  {
+    "text": "relire",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "Relisez-le",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "Répondre à l’expéditeur",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondez-lui",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondez-lui",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je veux dicter mon message à nouveau",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Je veux remplacer le message",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Lire mes e-mails de Yash Kamalanath",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire mes e-mails sur la mise à jour COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lisez-moi les courriels de mise à jour COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire les e-mails de mise à jour COVID",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Aller au compte suivant",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Accéder au premier compte",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Aller au dernier compte",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Aller au compte précédent",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "aller à mon compte Hotmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "aller sur mon compte Yahoo",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "aller à mon compte AOL",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "accéder à mon compte Outlook",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Accéder à mon compte Gmail.com",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Accéder à mon compte Hotmail.com",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Lire les e-mails de mon prochain compte de messagerie",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Lire les e-mails de mon autre compte",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "lire les e-mails de mon compte Gmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "lire les e-mails de mon compte Hotmail",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Déplacer vers le dossier de révision de la conception",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Passer à la révision de la conception des dossiers",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Rechercher un e-mail à partir du dossier Design Review",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Rechercher des e-mails à partir de l’examen de la conception des dossiers",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire à partir du dossier de révision de la conception",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire à partir de l’examen de la conception des dossiers",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "quels e-mails sur l’hiver ai-je reçus d’hier ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire le premier e-mail",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Remplacez le message par Revue de conception",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Changer le message en Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Changer l’objet en Examen de la conception",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Modification soumise à Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Modification sujette à test",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Remplacez le titre par Design Review",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Changer le titre en Cortana",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Remplacez le destinataire par John Snow",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "remplacez le destinataire par yum@gmail.com",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Quels e-mails sur le cricket ai-je reçus d’hier ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "est-ce que j’ai des e-mails ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Répondez à ce message en disant tester.",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Déplacez-le vers le dossier Design Review",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Mettez-le dans le dossier de révision de la conception",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Passer au tee",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "Je m’envoie un e-mail à propos de la fête du vendredi en disant :",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Passer au compte suivant",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "Passer au compte précédent",
+    "domain": "email",
+    "intent": "switch_account"
+  },
+  {
+    "text": "changer à qui il va",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Changer à qui l’e-mail est destiné",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Changer le titre",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Mettre à jour le titre",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "envoyer un email à John en utilisant le titre Moriarty is back",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "envoyer un e-mail en utilisant le titre Moriarty est de retour",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Lire les e-mails sur AKA",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire les e-mails sur les ONG",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Lire des courriels sur l’ALENA",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Y a-t-il des e-mails de mon responsable ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Quels nouveaux e-mails ai-je reçus au cours de la dernière heure ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Quels sont mes nouveaux e-mails ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Envoyer un e-mail à mon responsable",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Envoyer un e-mail à mon responsable",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Envoyez-moi un EMAIL",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Envoyez-moi un e-mail",
+    "domain": "email",
+    "intent": "send_email"
+  },
+  {
+    "text": "Au revoir",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Au revoir",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Fermer",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "fini",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Nous avons terminé",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "J’ai fini",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "J’ai fini",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "J’ai terminé pour l’instant",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "C’est tout",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Ce sera tout",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Mise hors tension",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Arrêter",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "Désactiver",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "À plus tard",
+    "domain": "email",
+    "intent": "exit"
+  },
+  {
+    "text": "effacer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "l’effacer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Effacez cela",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "jeter",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Jetez-le",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Jetez ce qui",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "rejouer",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "en avant",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "rien",
+    "domain": "email",
+    "intent": "select_none"
+  },
+  {
+    "text": "Déplacer vers la boîte de réception",
+    "domain": "email",
+    "intent": "move_email"
+  },
+  {
+    "text": "avance rapide",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Sauter cette partie",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Sautez cette partie",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Ignorer cette section",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Sautez cette section",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Ignorer ce tableau",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Sautez ce tableau",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Ignorer ce paragraphe",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Sautez ce paragraphe",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Partie suivante",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Section suivante",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "paragraphe suivant",
+    "domain": "email",
+    "intent": "fast_forward"
+  },
+  {
+    "text": "Modifier l’e-mail",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "jouer",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "rejouer",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "Modifier dans Outlook",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Modifier dans Outlook Mobile",
+    "domain": "email",
+    "intent": "change_email"
+  },
+  {
+    "text": "Transférez l’e-mail à Yue en disant que c’est chez vous",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Transférer l’e-mail à Mary Johnson avec le test de message",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Est-ce que j’ai de nouveaux e-mails ?",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Suivant",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "archiver",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "supprimer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "drapeau",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Annuler le marquage des e-mails",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Répondre",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Marquer comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquez-le comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquez ceci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquez-le comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquez-le comme lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer celui-ci comme lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Allez-vous marquer celui-ci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Voulez-vous marquer celui-ci comme lu, s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer celui-ci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer celui-ci comme lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous le marquer comme étant lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous le marquer comme suit : s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous le marquer comme suit",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous le marquer comme suit : s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux le marquer comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer cette lecture",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer ceci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux le marquer comme lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer celui-ci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de le marquer comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer ceci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer ceci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer l’e-mail comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquez-le simplement comme lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer celui-ci comme lu",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer cette conversation comme suit",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer cette conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer la conversation comme lue ?",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer la conversation comme lue ?",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer cette conversation comme suit :",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pouvez-vous marquer cette conversation comme lue ?",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme suit",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme lue ?",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer cette conversation comme suit :",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous marquer cette conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme suit",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer cette conversation comme suit :",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer cette conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer cette conversation comme suit",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Je veux marquer cette conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer, de marquer la conversation lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer la conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer cette conversation comme suit :",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Il suffit de marquer cette conversation comme lue",
+    "domain": "email",
+    "intent": "mark_read"
+  },
+  {
+    "text": "Marquer comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer une conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer la conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer la conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer cette conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer cette conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer la conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer cette conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer cette conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, marquer cette conversation comme non lue ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer la conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer cette conversation comme non lue",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquez-le comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquez ceci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquez-le comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquez-le comme non lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer celui-ci comme non lu ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous marquer celui-ci comme non lu, s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Allez-vous marquer celui-ci comme non lu ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Voulez-vous marquer celui-ci comme non lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer celui-ci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous marquer celui-ci comme non lu, s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous le marquer comme non lu ?",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pouvez-vous le marquer comme non lu, s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous le marquer comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Pourriez-vous le marquer comme non lu, s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux le marquer comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer ceci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer ceci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je souhaite marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux le marquer comme non lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Je veux marquer celui-ci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de le marquer comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer ceci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer ceci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer l’e-mail comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Marquez-le simplement comme non lu s’il vous plaît",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Il suffit de marquer celui-ci comme non lu",
+    "domain": "email",
+    "intent": "mark_unread"
+  },
+  {
+    "text": "Drapeau",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signalez-le",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signalez-le s’il vous plaît",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Marquer l’e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signaler cet e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pouvez-vous le signaler s’il vous plaît",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Voulez-vous signaler cet e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Allez-vous marquer l’e-mail ?",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît signaler l’e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pourriez-vous signaler l’e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Il suffit de le signaler",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je veux le signaler",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je souhaite signaler cet e-mail",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je veux signaler celui-ci",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je vais signaler celui-ci",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je vais signaler celui-ci",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je pense que je vais signaler celui-ci",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je pense que je vais signaler celui-ci",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signaler cette conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signalez la conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Signaler l’ensemble de la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pourriez-vous signaler cette conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît signaler cette conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Allez-vous signaler cette conversation ?",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît signaler la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Il suffit de signaler l’ensemble de la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Il suffit de marquer la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je veux marquer la conversation pour plus tard",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Je veux signaler la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Marquer la conversation pour plus tard",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Marquez l’ensemble de la conversation pour plus tard",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Annuler le drapeau",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Retirez-le",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Retirez-le s’il vous plaît",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage de l’e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage de cet e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage des e-mails",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pouvez-vous le démarquer s’il vous plaît",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Voulez-vous retirer ce message de cet e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Allez-vous annuler le marquage de l’e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît annuler le marquage de l’e-mail",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pourriez-vous annuler le marquage de l’e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Il suffit de le démarquer",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je veux le démarquer",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je veux annuler le drapeau de celui-ci",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je vais démarquer celui-ci",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je vais démarquer celui-ci",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je pense que je vais démarquer celui-ci",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je pense que je vais démarquer celui-ci",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage de cette conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annulez le marquage de la conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage de l’ensemble de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pourriez-vous annuler le marquage de cette conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît annuler cette conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Allez-vous annuler le marquage de cette conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, annuler le marquage de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Il suffit d’annuler le marquage de l’ensemble de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Il suffit d’annuler le marquage de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je veux annuler l’affichage de la conversation pour plus tard",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Je veux annuler l’annonce de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annuler le marquage de la conversation pour plus tard",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Annulez le marquage de l’ensemble de la conversation pour plus tard",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Archiver",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archivez-le",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archivez-le s’il vous plaît",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver cet e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pouvez-vous l’archiver s’il vous plaît",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Voulez-vous archiver cet e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Allez-vous archiver l’e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît archiver l’e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pourriez-vous archiver l’e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Il suffit de l’archiver",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je veux l’archiver",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je veux archiver cet e-mail",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je veux archiver celui-ci",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je vais archiver celui-ci",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je vais archiver celui-ci",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je pense que je vais archiver celui-ci",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je pense que je vais archiver celui-ci",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Supprimer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimez-le",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimez-le s’il vous plaît",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer l’e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer cet e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pouvez-vous le supprimer s’il vous plaît",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Voulez-vous supprimer cet e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Allez-vous supprimer l’e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît supprimer l’e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pourriez-vous supprimer l’e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Il suffit de le supprimer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je veux le supprimer",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je veux supprimer cet e-mail",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je veux supprimer celui-ci",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je vais supprimer celui-ci",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je vais supprimer celui-ci",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je pense que je vais supprimer celui-ci",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je pense que je vais supprimer celui-ci",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver cette conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archivez la conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pourriez-vous archiver cette conversation ?",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît archiver cette conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Voulez-vous archiver cette conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Il suffit d’archiver l’ensemble de la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Il suffit d’archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je souhaite archiver la conversation pour plus tard",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je veux archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver la conversation pour plus tard",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la conversation pour plus tard",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Je vais archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Supprimer une conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer cette conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimez la conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer l’intégralité de la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pourriez-vous supprimer cette conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît supprimer cette conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Allez-vous supprimer cette conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Voulez-vous s’il vous plaît supprimer la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Il suffit de supprimer toute la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Il suffit de supprimer la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je veux supprimer la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer toute la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Supprimer la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pouvez-vous s’il vous plaît supprimer toute la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Pourriez-vous s’il vous plaît supprimer cette discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je vais supprimer la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je pense que je vais supprimer la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Je pense que je vais supprimer toute la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Prochain",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Suivant s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "E-mail suivant",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passez à la suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Aller à l’e-mail suivant",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux entendre le prochain e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Lisez-moi le prochain e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer à l’e-mail suivant",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Suivant",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Suivant sur la liste",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Suivant dans la file d’attente",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Prochain dans la file d’attente s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quel est le prochain e-mail ?",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Prochaine conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Aller à la conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux entendre la prochaine conversation",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Lisez-moi la conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer à la conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Prochaine conversation dans la file d’attente",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Prochaine conversation en ligne s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Quelle est la prochaine conversation ?",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Précédent s’il vous plaît",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "E-mail précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Précédent s’il vous plaît",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Aller à la page précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Aller à l’e-mail précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Je veux entendre à nouveau l’e-mail précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Relisez-moi l’e-mail précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Revenir à l’e-mail précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Précédent",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Qu’est-ce que l’e-mail précédent à nouveau",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Conversation précédente s’il vous plaît",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Aller à la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Je veux entendre à nouveau la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Pourriez-vous me relire la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Revenir à la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, revenir à la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Revenir à la conversation précédente",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Quelle est la conversation précédente ?",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Quelle est la conversation précédente à nouveau",
+    "domain": "email",
+    "intent": "show_previous"
+  },
+  {
+    "text": "Sautiller",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer l’e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Sauter celui-ci",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer l’e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer cet e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux sauter",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux ignorer cet e-mail",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Sauter un",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer à la suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer à la suivante dans la file d’attente",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer la conversation",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer la conversation",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Sautez la conversation s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passer à la conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Passez à la conversation suivante s’il vous plaît",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux passer à la conversation suivante",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Je veux sauter la conversation",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorez toute cette discussion",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Ignorer toute la discussion",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Pourriez-vous, s’il vous plaît, sauter toute la discussion",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Répondre",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondre à cette question",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondre à cet e-mail",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondre à cet e-mail",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Envoyer une réponse",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondez à cet e-mail s’il vous plaît",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Pourriez-vous répondre s’il vous plaît",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Pourriez-vous envoyer une réponse rapide s’il vous plaît",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Réponse rapide",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Répondez très rapidement",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je souhaite envoyer une réponse",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je veux répondre",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je veux répondre rapidement",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je veux envoyer une réponse rapide",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Je veux répondre brièvement",
+    "domain": "email",
+    "intent": "reply"
+  },
+  {
+    "text": "Jouer ensuite",
+    "domain": "email",
+    "intent": "show_next"
+  },
+  {
+    "text": "Archiver la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Marquer la conversation",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Annuler le marquage de la conversation",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Supprimer la conversation",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Faire avancer la conversation",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Archiver le fil de discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Marquer le thread",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Annuler le marquage du thread",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Supprimer le fil de discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Transférer le fil",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Archiver la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Signaler la discussion",
+    "domain": "email",
+    "intent": "flag"
+  },
+  {
+    "text": "Annuler le marquage de la discussion",
+    "domain": "email",
+    "intent": "clear_flag"
+  },
+  {
+    "text": "Supprimer la discussion",
+    "domain": "email",
+    "intent": "delete"
+  },
+  {
+    "text": "Faire avancer la discussion",
+    "domain": "email",
+    "intent": "forward"
+  },
+  {
+    "text": "Thread d’archivage",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité du fil de discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’ensemble du fil de discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la conversation",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité du fil de discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité du fil de discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "Archiver l’intégralité de la discussion",
+    "domain": "email",
+    "intent": "archive"
+  },
+  {
+    "text": "oui",
+    "domain": "email",
+    "intent": "confirm"
+  },
+  {
+    "text": "Envoyez-le",
+    "domain": "email",
+    "intent": "confirm"
+  },
+  {
+    "text": "Non",
+    "domain": "email",
+    "intent": "reject"
+  },
+  {
+    "text": "Annuler",
+    "domain": "email",
+    "intent": "reject"
+  },
+  {
+    "text": "répéter",
+    "domain": "email",
+    "intent": "repeat"
+  },
+  {
+    "text": "reprendre",
+    "domain": "email",
+    "intent": "resume"
+  },
+  {
+    "text": "Aide",
+    "domain": "common",
+    "intent": "help"
+  },
+  {
+    "text": "accepter",
+    "domain": "calendar",
+    "intent": "accept_meeting"
+  },
+  {
+    "text": "Accepter la réunion",
+    "domain": "calendar",
+    "intent": "accept_meeting"
+  },
+  {
+    "text": "Envoyer des commentaires",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "Contacter l’assistance",
+    "domain": "feedback",
+    "intent": "contact_support"
+  },
+  {
+    "text": "Planifier une réunion",
+    "domain": "calendar",
+    "intent": "create_calendar_entry"
+  },
+  {
+    "text": "Vérifier mes e-mails",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Consulter mes e-mails",
+    "domain": "email",
+    "intent": "search_email"
+  },
+  {
+    "text": "Envoyer un commentaire",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "J’ai un retour d’expérience",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  },
+  {
+    "text": "rétroaction",
+    "domain": "feedback",
+    "intent": "submit_feedback"
+  }
 ]

@@ -9,10 +9,10 @@ public class LUGeneratorTest
     [TestMethod]
     public void TestGenerate()
     {
-        var testSet = GetTestSet();
+        var testSet = GetTestSet("en");
         foreach (var item in testSet)
         {
-            var lu = LUGenerator.GenerateSemanticFrame(item.Text, "en-us");
+            var lu = LUGenerator.GenerateSemanticFrame(item.Text, "en");
             Assert.AreEqual(lu.Domain, item.Domain);
             Assert.AreEqual(lu.Intent, item.Intent);
         }
@@ -27,9 +27,16 @@ public class LUGeneratorTest
         Assert.IsTrue(testSet?.Count != 0);
     }
 
-    private static IEnumerable<TestItem> GetTestSet()
+    private static IEnumerable<TestItem> GetTestSet(string language="en")
     {
-        var rawJson = File.ReadAllText("D:/Playground/csharplang/Assets/English.json");
+        var filePath = language switch {
+            "en" => "D:/Playground/csharplang/Assets/English.json",
+            "fr" => "D:/Playground/csharplang/Assets/French.json",
+            "pt" => "D:/Playground/csharplang/Assets/Portuguese.json",
+            _ => throw new ArgumentException("Invalid language", nameof(language))
+        };
+
+        var rawJson = File.ReadAllText(filePath);
         var testSet = JsonConvert.DeserializeObject<List<TestItem>>(rawJson);
         return testSet ?? Enumerable.Empty<TestItem>();
     }
